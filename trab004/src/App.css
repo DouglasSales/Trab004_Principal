@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.App-header {
+  width: 50%;
+  padding: 10px;
+  background-color: #939c96;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Todo-button {
+  background: white;
+  padding: 10px;
+  border: none;
+}
+
+.Novo-item {
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 10px;  
+  width: 500px;
+}
+
+.Item-lista {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 4px;
+  background: white;
+}
+
+.Item{
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
