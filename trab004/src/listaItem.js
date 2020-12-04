@@ -4,7 +4,7 @@ const ListaItem = ({ onChange, onDelete, value }) => {
   return (
     <div className="Item-lista">
       <input
-        className="Item"
+        className={ value.includes("ler") || value.includes("estudar") ? "Item" : null}
         value={value}
         onChange={onChange}
       />

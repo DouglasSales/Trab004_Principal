@@ -33,14 +33,9 @@ const App = () => {
             key={id}
             value={value}
             onChange={(event) => AtualizaTarefa(event, index)}
-            onDelete={() => DeletaTarefa(index)}
+            onDelete={() => DeletaTarefa(index)}            
           />
         ))}
-      </div>
-      <div>
-        <pre>
-          {JSON.stringify(tarefas, null, 4)}
-        </pre>
       </div>
     </div>
   )
